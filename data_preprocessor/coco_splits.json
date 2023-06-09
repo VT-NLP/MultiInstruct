@@ -1,0 +1,14 @@
+{
+    "im_region_extraction": {
+        "train": [
+            0,
+            160000
+        ]
+    },
+    "image_completion_w_image_caption": {
+        "train": [
+            160001,
+            604906
+        ]
+    }
+}

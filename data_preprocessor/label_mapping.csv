@@ -1,0 +1,105 @@
+truthfulness,size,cleaned_label
+CORRECT ATTRIBUTION,3,True
+CORRECTLY ATTRIBUTED,23,True
+Currently suspended.,1,#ignore
+FALSE,1966,False
+FALSE:,3,False
+False.,233,False
+INCORRECT ATTRIBUTION,3,False
+INCORRECTLY ATTRIBUTED,11,False
+Inaccurate.,1,False
+LEGEND,69,#ignore
+MISATTRIBUTED,9,False
+MISCAPTIONED,21,False
+MIXED ATTRIBUTION,1,not enough information (NEI)
+MIXTURE,392,not enough information (NEI)
+MIXTURE OF ACCURATE AND INACCURATE INFORMATION,1,not enough information (NEI)
+MIXTURE OF CORRECT AND INCORRECT ATTRIBUTIONS,1,not enough information (NEI)
+MIXTURE OF REAL AND FAKE IMAGES,1,not enough information (NEI)
+MIXTURE OF TRUE AND FALSE INFORMATION,21,not enough information (NEI)
+MIXTURE OF TRUE AND FALSE INFORMATION:,5,not enough information (NEI)
+MIXTURE OF TRUE AND OUTDATED INFORMATION,1,True
+"MIXTURE OF TRUE, FALSE, AND OUTDATED INFORMATION:",1,not enough information (NEI)
+MIXTURE:,39,not enough information (NEI)
+MOSTLY FALSE,219,False
+MOSTLY FALSE:,1,False
+MOSTLY TRUE,61,True
+Mixture,1,not enough information (NEI)
+Mixture.,2,not enough information (NEI)
+Multiple - see below.,29,#ignore
+Multiple - see below:,3,#ignore
+Multiple:,11,#ignore
+No longer true.,1,#ignore
+Not Applicable,1,False
+Not any longer.,1,#ignore
+Not any more.,6,#ignore
+"Not in the U.S., but it might be of some assistance in Britain.",1,#ignore
+Not likely.,1,False
+Not quite.,6,False
+OUTDATED,43,#ignore
+Outdated,1,#ignore
+Outdated.,3,#ignore
+PARTLY TRUE,19,not enough information (NEI)
+PArtly true.,1,not enough information (NEI)
+PROBABLY FALSE,13,False
+PROBABLY TRUE,2,True
+Paraphrase.,1,#ignore
+Partly true.,12,not enough information (NEI)
+REAL IMAGE; INACCURATE DESCRIPTION,1,False
+REAL PHOTOGRAPH,1,True
+REAL PHOTOGRAPH; INACCURATE DESCRIPTION,19,False
+REAL PHOTOGRAPHS; INACCURATE DESCRIPTION,15,False
+REAL VIDEO; INACCURATE DESCRIPTION,2,False
+Real photograph; inaccurate description.,3,False
+Real photographs; inaccurate description.,6,False
+Real photos; inaccurate description.,1,False
+SCAM,7,False
+Sort of.,5,#ignore
+Status: False.,1,False
+Status: True.,1,True
+TRUE,405,True
+TRUE BUT OUTDATED,3,#ignore
+TRUE:,2,True
+True,1,True
+"True, but the boycott has ended.",1,#ignore
+True.,170,True
+"Two real entries, the others are fiction.",1,False
+UNDETERMINED,46,not enough information (NEI)
+UNPROVEN,207,not enough information (NEI)
+Undetermined.,31,not enough information (NEI)
+WAS PARTLY TRUE,1,not enough information (NEI)
+WITHDRAWN,1,#ignore
+"Was true in 2006, but is no longer the case.",1,#ignore
+"Was true, but is no longer the case.",1,#ignore
+"Was true, but isn't any more.",1,#ignore
+"Was true, but the boy has since passed away.",1,#ignore
+"Was true, but the child has since died.",1,#ignore
+"Was true, but the program has since ended.",1,#ignore
+"Was true, but the promotion is now over.",1,#ignore
+Was true.,1,#ignore
+Was true; now outdated,1,#ignore
+Was true; now outdated.,1,#ignore
+Was true; proposal has been defeated.,1,#ignore
+Was true; warning has since been lifted.,1,#ignore
+,,
+Correct Attribution,30,True
+FALSE,210,False
+Labeled Satire,23,False
+Legend,16,#ignore
+Misattributed,20,False
+Miscaptioned,43,False
+Mixture,93,not enough information (NEI)
+Mostly False,60,False
+Mostly True,41,True
+Originated as Satire,8,False
+Outdated,25,#ignore
+Recall,6,#ignore
+Research In Progress,18,#ignore
+Scam,18,False
+TRUE,252,True
+Unproven,58,not enough information (NEI)
+Pants on Fire,,
+False,,
+Mostly False,,
+True,,
+Mostly True ,,

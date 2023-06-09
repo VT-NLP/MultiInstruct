@@ -1,0 +1,42 @@
+{
+    "VG": {
+        "train": [
+            0,
+            86461
+        ],
+        "valid": [
+            86462,
+            97269
+        ],
+        "test": [
+            97270,
+            108076
+        ]
+    },
+    "im_descriptive_infilling": {
+        "train": [
+            0,
+            43230
+        ],
+        "valid": [
+            86462,
+            97269
+        ]
+    },
+    "image_completion_w_region_caption": {
+        "train": [
+            43231,
+            86461
+        ],
+        "valid": [
+            86462,
+            97269
+        ]
+    },
+    "im_descriptive_extraction": {
+        "test": [
+            97270,
+            108076
+        ]
+    }
+}
