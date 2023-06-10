@@ -48,9 +48,11 @@ Download the dataset!
 tar -xf wikihow.tar.gz && rm wikihow.tar.gz
 ```
 ## Visual Genome
+```
 cd raw_datasets
 mkdir visual_genome
 cd visual_genome
+```
 Download the dataset!
 ```
 unzip images.zip && rm images.zip
