@@ -4,15 +4,25 @@ This is the official repo for our ACL 2023 MULTIINSTRUCT [paper](https://arxiv.o
 
 <img src="multi_instruct_tasks_fig.png">
 
-## What's New: 🎉 
-  * [Call for Datasets] Call for new datasets <br>
-  > If the datasets that you want to use are not in MultiInstruct, please let us know by raising issues. We will help you to write downloading scripts, preprocessing scripts and instructions and include the datasets in the repo.
+## Call For Datasets:  :bulb: 
+<!--   * [Call for Datasets] Call for new datasets <br> -->
+We are actively seeking new datasets to incorporate into MultiInstruct. If there are particular datasets you wish to use that are currently not included in MultiInstruct, we encourage you to inform us by raising an issue. We are here to assist in crafting downloading scripts, preprocessing scripts, and comprehensive instructions, subsequently integrating these datasets into the repository.
 
-  > If you have interesting datasets and you want us to include in MultiInstruct, please let us know by raising issues. We will help you to write downloading scripts, preprocessing scripts, and instructions and include the datasets in the repo.
-  * [Dataset Release] July 2023, will release **MultiInstruct 1.5** <br>
-  > In 1.5 version, we plan to relsease around 150 more multimodal tasks in addtion to the original 62 tasks to facilitate research in vision-language foundation models. The new tasks are all vision-language tasks in a unified seq-toseq format.
-  * [Dataset Release] June 2023, released **MultiInstruct 1.0** <br>
-  > First multimodal instruction tuning benchmark dataset consistens of 62 diverse multimodal tasks. 1.0 version is the version used in our paper.
+
+## MultiInstruct 1.0 Release 🎉 
+<!--   * [Dataset Release] June 2023, released **MultiInstruct 1.0** <br> -->
+We are delighted to present MultiInstruct 1.0, the release of our first multimodal instruction tuning benchmark dataset. This dataset comprises 62 diverse multimodal tasks. MultiInstruct 1.0 is the version referenced and used in our published [paper](https://arxiv.org/pdf/2212.10773.pdf).
+
+## Future Dataset Release: MultiInstruct 1.5 Coming in July 2023 :rocket: 
+As we continue to advance our dataset, we are thrilled to share our plans for the release of MultiInstruct 1.5. In this upgraded version, we aim to release approximately 150 additional multimodal tasks, extending beyond the original 62 tasks, to further stimulate research in vision-language foundation models. These new tasks, all revolving around vision-language challenges, will be presented in a unified seq-to-seq format.
+
+<!--   > If you have interesting datasets and you want us to include in MultiInstruct, please let us know by raising issues. We will help you to write downloading scripts, preprocessing scripts, and instructions and include the datasets in the repo.
+
+If you have interesting datasets and you want us to include in MultiInstruct, please let us know by raising issues. We will help you to write downloading scripts, preprocessing scripts, and instructions and include the datasets in the repo.
+
+  * [Upcoming Dataset Release] July 2023, will release **MultiInstruct 1.5** <br>
+  > In 1.5 version, we plan to relsease around 150 more multimodal tasks in addtion to the original 62 tasks to facilitate research in vision-language foundation models. The new tasks are all vision-language tasks in a unified seq-toseq format. -->
+## Usage
 ### Downloading Dataset:
 ```
 sh download_data.sh
@@ -34,6 +44,8 @@ This script helps you to assemble the instances randomly with 1 of their 5 instr
 {"unique_id": "mscoco_text_legibility_287140", "image_source": "coco2014", "task_name": "text_legibility", "image_path": "raw_datasets/MSCOCO2014/train2014/COCO_train2014_000000287140.jpg", "region": ["212.35294117647058 108.67088607594941 238.16806722689077 125.88607594936713"], "options": ["not clear and complete", "clear"], "target_txt": "clear", "prompt": "Decide if the text in the given region is legible. Region 212.35294117647058 108.67088607594941 238.16806722689077 125.88607594936713 \n\n[Options]: not clear and complete||||clear", "target": "clear"}
 ```
 You can load the image via "image_path" and your input prompt is in "prompt" field. The output is in "target" field. You can ignore all other fileds in each instance.
+
+
 ## Citation 
 If you're using MultiInstruct in your research or applications, please cite using this BibTeX:
 ```bibtex
