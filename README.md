@@ -1,6 +1,6 @@
 ## MULTIINSTRUCT: Improving Multi-Modal Zero-Shot Learning via Instruction Tuning
 
-This is the official repo for our ACL 2023 MULTIINSTRUCT [paper](https://arxiv.org/pdf/2212.10773.pdf). MULTIINSTRUCT is the first multimodal instruction tuning benchmark dataset that consists of 62 diverse multimodal tasks in a unified seq-toseq format covering 10 broad categories. The tasks are derived from 21 existing open-source datasets and each task is equipped with 5 expertwritten instructions.
+This is the official repo for our ACL 2023 MULTIINSTRUCT [paper](https://arxiv.org/pdf/2212.10773.pdf). MULTIINSTRUCT is the first multimodal instruction tuning benchmark dataset that consists of 62 diverse multimodal tasks in a unified seq-to-seq format covering 10 broad categories. The tasks are derived from 21 existing open-source datasets and each task is equipped with 5 expertwritten instructions.
 
 <img src="multi_instruct_tasks_fig.png">
 
@@ -21,7 +21,7 @@ As we continue to advance our dataset, we are thrilled to share our plans for th
 If you have interesting datasets and you want us to include in MultiInstruct, please let us know by raising issues. We will help you to write downloading scripts, preprocessing scripts, and instructions and include the datasets in the repo.
 
   * [Upcoming Dataset Release] July 2023, will release **MultiInstruct 1.5** <br>
-  > In 1.5 version, we plan to relsease around 150 more multimodal tasks in addtion to the original 62 tasks to facilitate research in vision-language foundation models. The new tasks are all vision-language tasks in a unified seq-toseq format. -->
+  > In 1.5 version, we plan to relsease around 150 more multimodal tasks in addtion to the original 62 tasks to facilitate research in vision-language foundation models. The new tasks are all vision-language tasks in a unified seq-to-seq format. -->
 ## Usage
 ### Downloading Dataset:
 ```
